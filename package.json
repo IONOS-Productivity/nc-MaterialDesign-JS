@@ -32,6 +32,7 @@
   "homepage": "https://github.com/Templarian/MaterialDesign-JS#readme",
   "devDependencies": {
     "@mdi/svg": "file:../nc-mdi-svg/dist",
-    "@mdi/util": "^0.3.2"
+    "@mdi/util": "^0.3.2",
+    "typescript": "^5.6.3"
   }
 }
