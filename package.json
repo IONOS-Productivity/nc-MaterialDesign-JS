@@ -7,7 +7,7 @@
   "types": "mdi.d.ts",
   "sideEffects": false,
   "scripts": {
-    "build": "npm update && npm install && npm run buildjs && npm run es5 && npm run commonjs",
+    "build": "npm run buildjs && npm run es5 && npm run commonjs",
     "buildjs": "node build.js",
     "es5": "tsc -d mdi.ts --target es5 --module es2015",
     "commonjs": "tsc -d mdi.ts --outDir commonjs",
